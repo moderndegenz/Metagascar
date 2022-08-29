@@ -57,8 +57,11 @@ const Metagascar = ({ connectToMetamask }) => {
 
     <a-scene networked-scene="serverURL:  https://view.metagascar.com/wsapp; app: metagascar; room: metagascar; connectOnLoad: true; onConnect: onConnect; adapter: easyrtc; audio: false; video: false; debug: true;" >
         <a-assets>
-          <img id="wall" src="https://view.metagascar.com/images/house.png" />
           <img id="street" src="https://view.metagascar.com/images/line.street.png" />
+          <a-assets>
+            <a-asset-item id="wall" src="https://play.tfnlab.com/download.glb.jsp?length=1&width=5&height=1&llength=1&lwidth=2"></a-asset-item>
+          </a-assets>
+
           <template id="my-template">
             <a-entity>
               <a-sphere color="#f00"></a-sphere>
