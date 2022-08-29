@@ -6,6 +6,7 @@ import Web3 from 'web3';
 //import { Entity, Scene } from "aframe-react";
 
 import 'aframe';
+import 'aframe-gltf-helpers';
 import 'aframe-event-set-component'; // NB: This enables event-set__click and such like, see https://www.npmjs.com/package/aframe-event-set-component
 import 'networked-aframe';
 import adapter from 'webrtc-adapter';
