@@ -67,7 +67,7 @@ const Metagascar = ({ connectToMetamask }) => {
         </a-assets>
 
 
-        <a-entity environment="ground: noise; preset: none; lightPosition: 1 5 -2; groundColor: #808080; ground: flat; groundTexture: walkernoise;dressing: none; playArea: 1000;"></a-entity>
+        <a-entity environment="ground: noise;  lightPosition: 1 5 -2; groundColor: #808080; ground: flat; groundTexture: walkernoise;dressing: none; playArea: 1000;"></a-entity>
 
         <a-entity id="player" position="0 0 0" network="template:#my-template;" camera wasd-controls look-controls >
         </a-entity>
