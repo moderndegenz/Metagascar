@@ -70,7 +70,6 @@ const Metagascar = ({ connectToMetamask }) => {
         </a-assets>
         <a-entity gltf-model="#house"></a-entity>
         <a-entity environment="ground: noise; preset: forest; lightPosition: 1 5 -2; groundColor: green; ground: flat; groundTexture: walkernoise;dressing: mushrooms; dressingAmount: 100; playArea: 440;"></a-entity>
-       {items}
 
         <a-entity id="player" network="template:#my-template;" camera wasd-controls look-controls >
         </a-entity>
