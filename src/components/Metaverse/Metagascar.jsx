@@ -76,6 +76,9 @@ const Metagascar = ({ connectToMetamask }) => {
 
         <a-entity id="player" network="template:#my-template;" camera wasd-controls look-controls >
         </a-entity>
+        <a-scene gltf-model="dracoDecoderPath: path/to/decoder/;">
+          <a-entity gltf-model="url(https://metagascar.tfnlab.com/glb/structure.glb)"></a-entity>
+        </a-scene>
     </a-scene>
 
   );
