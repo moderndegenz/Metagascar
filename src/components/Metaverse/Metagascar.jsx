@@ -58,13 +58,18 @@ const Metagascar = ({ connectToMetamask }) => {
 
     <a-scene networked-scene="serverURL:  https://view.metagascar.com/wsapp; app: metagascar; room: metagascar; connectOnLoad: true; onConnect: onConnect; adapter: easyrtc; audio: false; video: false; debug: true;" >
         <a-assets>
+          <img id="street" src="https://view.metagascar.com/images/line.street.png" />
+          <a-assets>
+            <a-asset-item id="house" src="https://play.tfnlab.com/download.glb.jsp?length=1&width=5&height=1&llength=1&lwidth=2"></a-asset-item>
+          </a-assets>
+
           <template id="my-template">
             <a-entity>
               <a-sphere color="#f00"></a-sphere>
             </a-entity>
           </template>
         </a-assets>
-        <a-entity gltf-model="url(https://play.tfnlab.com/download.glb.jsp?length=1&width=5&height=1&llength=1&lwidth=2)"></a-entity>
+        <a-entity gltf-model="#house"></a-entity>
         <a-entity environment="ground: noise; preset: forest; lightPosition: 1 5 -2; groundColor: green; ground: flat; groundTexture: walkernoise;dressing: mushrooms; dressingAmount: 100; playArea: 440;"></a-entity>
 
         <a-entity id="player" network="template:#my-template;" camera wasd-controls look-controls >
