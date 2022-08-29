@@ -69,7 +69,7 @@ const Metagascar = ({ connectToMetamask }) => {
           </template>
         </a-assets>
 
-         <a-entity obj-model="obj:#crate-obj" material="obj:#crate-mtl" position="0 1 0" scale="0.1 0.1 0.1" rotation="0 0 0" >
+         <a-entity obj-model="obj:#crate-obj" material="obj:#crate-mtl" position="0 0.5 0" scale="0.1 0.1 0.1" rotation="0 0 0" >
          </a-entity>
 
         <a-entity environment="ground: noise; preset: forest; lightPosition: 1 5 -2; groundColor: green; ground: flat; groundTexture: walkernoise;dressing: mushrooms; dressingAmount: 100; playArea: 440;"></a-entity>
