@@ -59,7 +59,7 @@ const Metagascar = ({ connectToMetamask }) => {
         <a-assets>
           <img id="street" src="https://view.metagascar.com/images/line.street.png" />
           <a-assets>
-            <a-asset-item id="wall" src="https://play.tfnlab.com/download.glb.jsp?length=1&width=5&height=1&llength=1&lwidth=2"></a-asset-item>
+            <a-asset-item id="house" src="https://play.tfnlab.com/download.glb.jsp?length=1&width=5&height=1&llength=1&lwidth=2"></a-asset-item>
           </a-assets>
 
           <template id="my-template">
@@ -68,6 +68,7 @@ const Metagascar = ({ connectToMetamask }) => {
             </a-entity>
           </template>
         </a-assets>
+        <a-entity gltf-model="#house"></a-entity>
         <a-entity environment="ground: noise; preset: forest; lightPosition: 1 5 -2; groundColor: green; ground: flat; groundTexture: walkernoise;dressing: mushrooms; dressingAmount: 100; playArea: 440;"></a-entity>
        {items}
 
