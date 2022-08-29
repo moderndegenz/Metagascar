@@ -60,7 +60,7 @@ const Metagascar = ({ connectToMetamask }) => {
         <a-assets>
           <img id="street" src="https://view.metagascar.com/images/line.street.png" />
           <a-asset-item id="crate-obj" src="https://metagascar.tfnlab.com/obj/structure.obj"></a-asset-item>
-          <a-asset-item id="crate-mtl" src="https://view.metagascar.com/obj/structure.mtl"></a-asset-item>
+          <a-asset-item id="crate-mtl" src="https://metagascar.tfnlab.com/obj/structure.mtl"></a-asset-item>
 
           <template id="my-template">
             <a-entity>
