@@ -58,9 +58,6 @@ const Metagascar = ({ connectToMetamask }) => {
 
     <a-scene networked-scene="serverURL:  https://view.metagascar.com/wsapp; app: metagascar; room: metagascar; connectOnLoad: true; onConnect: onConnect; adapter: easyrtc; audio: false; video: false; debug: true;" >
         <a-assets>
-          <img id="street" src="https://view.metagascar.com/images/line.street.png" />
-          <a-asset-item id="crate-obj" src="https://metagascar.tfnlab.com/obj/structure.obj"></a-asset-item>
-          <a-asset-item id="crate-mtl" src="https://metagascar.tfnlab.com/obj/structure.mtl"></a-asset-item>
 
           <template id="my-template">
             <a-entity>
@@ -69,15 +66,13 @@ const Metagascar = ({ connectToMetamask }) => {
           </template>
         </a-assets>
 
-         <a-entity obj-model="obj:#crate-obj" material="obj:#crate-mtl" position="0 0.1 0" scale="0.1 0.1 0.1" rotation="0 0 0" >
-         </a-entity>
 
         <a-entity environment="ground: noise; preset: forest; lightPosition: 1 5 -2; groundColor: green; ground: flat; groundTexture: walkernoise;dressing: mushrooms; dressingAmount: 100; playArea: 440;"></a-entity>
 
         <a-entity id="player" network="template:#my-template;" camera wasd-controls look-controls >
         </a-entity>
         <a-scene gltf-model="dracoDecoderPath: path/to/decoder/;">
-          <a-entity gltf-model="url(https://metagascar.tfnlab.com/glb/structure.glb)"></a-entity>
+          <a-entity gltf-model="url(https://metagascar.tfnlab.com/glb/structure.glb)" position="0 0.05 0" scale="0.1 0.1 0.1" ></a-entity>
         </a-scene>
     </a-scene>
 
