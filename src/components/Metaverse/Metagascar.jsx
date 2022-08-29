@@ -69,10 +69,10 @@ const Metagascar = ({ connectToMetamask }) => {
 
         <a-entity environment="ground: noise; preset: forest; lightPosition: 1 5 -2; groundColor: green; ground: flat; groundTexture: walkernoise;dressing: mushrooms; dressingAmount: 100; playArea: 440;"></a-entity>
 
-        <a-entity id="player" position="-100 0 -100" network="template:#my-template;" camera wasd-controls look-controls >
+        <a-entity id="player" position="0 0 0" network="template:#my-template;" camera wasd-controls look-controls >
         </a-entity>
         <a-scene gltf-model="dracoDecoderPath: path/to/decoder/;">
-          <a-entity gltf-model="url(https://metagascar.tfnlab.com/glb/structure.glb)" position="0 0.05 0" scale="0.1 0.1 0.1" ></a-entity>
+          <a-entity gltf-model="url(https://metagascar.tfnlab.com/glb/structure.glb)" position="25 0.05 0" scale="0.1 0.1 0.1" ></a-entity>
         </a-scene>
     </a-scene>
 
