@@ -74,8 +74,12 @@ const Metagascar = ({ connectToMetamask }) => {
         <a-scene gltf-model="dracoDecoderPath: path/to/decoder/;">
           <a-entity gltf-model="url(https://metagascar.tfnlab.com/glb/structure.glb)" position="25 0.05 0" scale="0.1 0.1 0.1" ></a-entity>
         </a-scene>
-        <a-entity gltf-model="url(https://metagascar.tfnlab.com/assets/download.glb.glb.glb?length=9&width=5&height=1&llength=6&lwidth=13&.glb)" position="25 0.05 50" scale="0.1 0.1 0.1"></a-entity>
-        <a-entity gltf-model="url(https://metagascar.tfnlab.com/assets/download.glb.glb.glb?length=1&width=9&height=6&llength=12&lwidth=15&.glb)" position="25 0.05 -50" scale="0.1 0.1 0.1"></a-entity>
+        <a-scene gltf-model="dracoDecoderPath: path/to/decoder/;">
+          <a-entity gltf-model="url(https://metagascar.tfnlab.com/assets/download.glb.glb.glb?length=9&width=5&height=1&llength=6&lwidth=13&.glb)" position="25 0.05 50" scale="0.1 0.1 0.1"></a-entity>
+        </a-scene>
+        <a-scene gltf-model="dracoDecoderPath: path/to/decoder/;">
+            <a-entity gltf-model="url(https://metagascar.tfnlab.com/assets/download.glb.glb.glb?length=1&width=9&height=6&llength=12&lwidth=15&.glb)" position="25 0.05 -50" scale="0.1 0.1 0.1"></a-entity>
+        </a-scene>
     </a-scene>
 
   );
