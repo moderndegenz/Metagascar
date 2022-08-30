@@ -74,6 +74,9 @@ const Metagascar = ({ connectToMetamask }) => {
         <a-scene gltf-model="dracoDecoderPath: path/to/decoder/;">
           <a-entity gltf-model="url(https://metagascar.tfnlab.com/glb/structure.glb)" position="25 0.05 0" scale="0.1 0.1 0.1" ></a-entity>
         </a-scene>
+        <a-scene gltf-model="dracoDecoderPath: path/to/decoder/;">
+          <a-entity gltf-model="url(https://play.tfnlab.com/download.glb.glb.jsp?length=2&width=8&height=4&llength=4&lwidth=8)" position="25 0.05 100" scale="0.1 0.1 0.1" ></a-entity>
+        </a-scene>
     </a-scene>
 
   );
