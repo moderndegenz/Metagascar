@@ -1,0 +1,9 @@
+import GLTFViewer from './GLTFViewer';
+
+const App = () => {
+  return (
+    <GLTFViewer url="model.gltf" />
+  );
+};
+
+export default App;
