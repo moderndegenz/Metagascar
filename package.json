@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "react": "18.2.0",
-    "react-three-fiber" :"8.11.0",
+    "react-three-fiber" :"^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "^18.2.0",
     "aframe": "1.3.0",
