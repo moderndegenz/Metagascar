@@ -11,7 +11,7 @@ const Model = () => {
   );
 };
 
-const GLTFViewer = () => {
+const Metagascar = () => {
   return (
     <Canvas>
       <Model />
